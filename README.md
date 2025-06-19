@@ -3,11 +3,11 @@
 
 ## select * from player_seasons
 Retrieves all rows from the player_seasons table.
-/n
+
 This table stores season-wise stats of players.
-/n
+
 Likely includes fields like player_name, season, pts, reb, etc.
-/n
+
 Used as a source for building or updating the players table.
 
 ## create type season_stats as (...)
