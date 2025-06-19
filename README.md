@@ -67,7 +67,7 @@ Useful for inspecting per-season stats from the array structure.
 
 Converts each array element into a row for analysis.
 
-WITH unnested AS (...) SELECT ...
+## WITH unnested AS (...) SELECT ...
 Same as above but uses a CTE to extract and then expand season_stats fields.
 
 Shows season, GP, PTS, REB, AST as columns per row.
